@@ -1,0 +1,36 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "Web server and application template",
+  "main": "index.js",
+  "engineStrict": true,
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha",
+    "bundle": "webpack",
+    "lint:app": "eslint app/js --fix",
+    "lint:server": "eslint server --fix"
+  },
+  "author": "Kent Safranski <fluidbyte.net>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "css-loader": "^0.25.0",
+    "eslint": "^3.4.0",
+    "eslint-config-standard": "^6.0.0",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.0",
+    "mocha": "^3.0.2",
+    "sinon-chai": "^2.8.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
