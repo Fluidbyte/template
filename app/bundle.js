@@ -44,9 +44,10 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(1);
-	__webpack_require__(5)
+	'use strict';
 
+	__webpack_require__(1);
+	__webpack_require__(5);
 
 /***/ },
 /* 1 */
@@ -400,7 +401,14 @@
 /* 5 */
 /***/ function(module, exports) {
 
-	console.log('src/index loaded')
+	'use strict';
+
+	var foo = 'bar';
+	var test = function test(baz) {
+	  console.log('' + baz);
+	};
+
+	test(foo);
 
 /***/ }
 /******/ ]);

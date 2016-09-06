@@ -16,6 +16,9 @@
   "author": "Kent Safranski <fluidbyte.net>",
   "license": "ISC",
   "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
     "chai": "^3.5.0",
     "css-loader": "^0.25.0",
     "eslint": "^3.4.0",
@@ -31,6 +34,7 @@
     "extends": "standard"
   },
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "lodash": "^4.15.0"
   }
 }
